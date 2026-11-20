@@ -1,0 +1,408 @@
+/* ==============================================================================
+   CYBERSHIELD – ENTERPRISE HACKER MATRIX SOC THEME STYLESHEET
+   Deep Black • Dark Emerald • Neon Green • Cybersecurity Terminal Design
+   ============================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* --- Root Variables: Hacker Matrix Palette --- */
+:root {
+    --bg-main: #020807;
+    --bg-sidebar: #010504;
+    --bg-card: #061410;
+    --bg-secondary: #092019;
+    --neon-green: #00FF88;
+    --matrix-green: #00CC66;
+    --emerald: #00A86B;
+    --cyan: #00E5FF;
+    --text-white: #E8FFF4;
+    --text-muted: #8BAA9B;
+    --alert-critical: #FF1744;
+    --alert-high: #FF9100;
+    --alert-medium: #FFEA00;
+    --alert-low: #00FF88;
+    --border-green: rgba(0, 255, 136, 0.22);
+    --border-green-glow: #00FF88;
+}
+
+/* --- Global App Styling --- */
+.stApp {
+    background-color: var(--bg-main) !important;
+    background-image: 
+        radial-gradient(circle at 50% 0%, rgba(0, 255, 136, 0.05) 0%, transparent 60%),
+        linear-gradient(rgba(0, 255, 136, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 136, 0.02) 1px, transparent 1px) !important;
+    background-size: 100% 100%, 40px 40px, 40px 40px !important;
+    color: var(--text-white) !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* --- Left Sidebar: Hacker Matrix Vertical Navigation --- */
+section[data-testid="stSidebar"] {
+    background-color: var(--bg-sidebar) !important;
+    border-right: 1px solid var(--border-green) !important;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.8), inset -1px 0 15px rgba(0, 255, 136, 0.03) !important;
+    width: 280px !important;
+    background-image: 
+        linear-gradient(180deg, rgba(0, 255, 136, 0.04) 0%, transparent 40%),
+        linear-gradient(rgba(0, 204, 102, 0.02) 1px, transparent 1px) !important;
+    background-size: 100% 100%, 100% 20px !important;
+}
+
+/* Sidebar Logo / Header */
+.sidebar-logo-container {
+    text-align: center;
+    padding: 16px 10px 14px 10px;
+    border-bottom: 1px solid var(--border-green);
+    margin-bottom: 16px;
+    background: rgba(6, 20, 16, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.08);
+}
+
+.sidebar-logo-icon {
+    font-size: 2.2rem;
+    filter: drop-shadow(0 0 10px #00FF88);
+}
+
+.sidebar-logo-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--neon-green);
+    letter-spacing: 2px;
+    margin: 4px 0 2px 0;
+    text-shadow: 0 0 12px rgba(0, 255, 136, 0.6);
+}
+
+.sidebar-logo-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.sidebar-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+    border-radius: 14px;
+    padding: 3px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--neon-green);
+    letter-spacing: 1px;
+}
+
+/* Sidebar Radio Navigation Styling */
+div[data-testid="stSidebar"] div[data-testid="stRadio"] > div {
+    gap: 5px !important;
+}
+
+div[data-testid="stSidebar"] div[data-testid="stRadio"] label {
+    background: rgba(6, 20, 16, 0.7) !important;
+    border: 1px solid rgba(0, 255, 136, 0.15) !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    color: var(--text-muted) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+    transition: all 0.25s ease !important;
+    cursor: pointer !important;
+    margin-bottom: 3px !important;
+}
+
+div[data-testid="stSidebar"] div[data-testid="stRadio"] label:hover {
+    background: rgba(9, 32, 25, 0.9) !important;
+    border-color: var(--neon-green) !important;
+    color: var(--text-white) !important;
+    box-shadow: 0 0 12px rgba(0, 255, 136, 0.2) !important;
+    transform: translateX(3px) !important;
+}
+
+div[data-testid="stSidebar"] div[data-testid="stRadio"] label[data-checked="true"] {
+    background: linear-gradient(90deg, rgba(0, 255, 136, 0.18) 0%, rgba(6, 20, 16, 0.9) 100%) !important;
+    border-color: var(--neon-green) !important;
+    color: var(--neon-green) !important;
+    font-weight: 700 !important;
+    box-shadow: 0 0 16px rgba(0, 255, 136, 0.3), inset 3px 0 0 var(--neon-green) !important;
+}
+
+/* Sidebar System Status Card */
+.sidebar-status-box {
+    background: rgba(6, 20, 16, 0.85);
+    border: 1px solid var(--border-green);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-top: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.06);
+}
+
+.sidebar-status-header {
+    color: var(--neon-green);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+    padding-bottom: 4px;
+}
+
+.sidebar-status-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+    color: var(--text-muted);
+}
+
+.sidebar-footer-text {
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--matrix-green);
+    letter-spacing: 2px;
+    margin-top: 14px;
+    opacity: 0.85;
+}
+
+/* --- Main Dashboard Banner --- */
+.matrix-banner-container {
+    background: linear-gradient(135deg, rgba(6, 20, 16, 0.95) 0%, rgba(9, 32, 25, 0.9) 50%, rgba(2, 8, 7, 0.95) 100%);
+    border: 1px solid var(--border-green);
+    border-radius: 12px;
+    padding: 22px 28px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 30px rgba(0, 255, 136, 0.1), inset 0 0 15px rgba(0, 255, 136, 0.03);
+    position: relative;
+    overflow: hidden;
+}
+
+.matrix-banner-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #00FF88 0%, #00E5FF 50%, #00FF88 100%);
+    box-shadow: 0 0 10px #00FF88;
+}
+
+.matrix-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0, 255, 136, 0.1);
+    color: var(--neon-green);
+    border: 1px solid rgba(0, 255, 136, 0.35);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 8px;
+}
+
+.matrix-title {
+    font-size: 2.15rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #E8FFF4 0%, #00FF88 60%, #00E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Inter', sans-serif;
+}
+
+.matrix-subtitle {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* --- Glowing Matrix KPI Cards --- */
+.matrix-kpi-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-green);
+    border-radius: 10px;
+    padding: 16px 14px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 12px rgba(0, 255, 136, 0.05);
+    transition: all 0.25s ease;
+    backdrop-filter: blur(8px);
+    margin-bottom: 12px;
+}
+
+.matrix-kpi-card:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 25px rgba(0, 255, 136, 0.25), 0 6px 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-2px);
+    background: var(--bg-secondary);
+}
+
+.kpi-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.kpi-metric {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--text-white);
+    margin: 6px 0;
+    font-feature-settings: "tnum";
+    letter-spacing: -0.5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.kpi-footer {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* --- Pulsating Radar Threat Indicators --- */
+.radar-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.radar-green {
+    background-color: var(--neon-green);
+    box-shadow: 0 0 0 rgba(0, 255, 136, 0.7);
+    animation: pulse-matrix-green 2s infinite;
+}
+
+.radar-red {
+    background-color: var(--alert-critical);
+    box-shadow: 0 0 0 rgba(255, 23, 68, 0.7);
+    animation: pulse-matrix-red 1.5s infinite;
+}
+
+.radar-cyan {
+    background-color: var(--cyan);
+    box-shadow: 0 0 0 rgba(0, 229, 255, 0.7);
+    animation: pulse-matrix-cyan 2s infinite;
+}
+
+@keyframes pulse-matrix-green {
+    0% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7); }
+    70% { box-shadow: 0 0 0 8px rgba(0, 255, 136, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 255, 136, 0); }
+}
+
+@keyframes pulse-matrix-red {
+    0% { box-shadow: 0 0 0 0 rgba(255, 23, 68, 0.8); }
+    70% { box-shadow: 0 0 0 8px rgba(255, 23, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 23, 68, 0); }
+}
+
+@keyframes pulse-matrix-cyan {
+    0% { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.7); }
+    70% { box-shadow: 0 0 0 8px rgba(0, 229, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0); }
+}
+
+/* --- Severity Badges --- */
+.badge-critical {
+    color: #FF1744;
+    background: rgba(255, 23, 68, 0.15);
+    border: 1px solid #FF1744;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    text-shadow: 0 0 8px rgba(255, 23, 68, 0.4);
+}
+
+.badge-high {
+    color: #FF9100;
+    background: rgba(255, 145, 0, 0.15);
+    border: 1px solid #FF9100;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.badge-medium {
+    color: #FFEA00;
+    background: rgba(255, 234, 0, 0.15);
+    border: 1px solid #FFEA00;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.badge-low {
+    color: #00FF88;
+    background: rgba(0, 255, 136, 0.15);
+    border: 1px solid #00FF88;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+/* --- Matrix Feed Ticker --- */
+.matrix-feed-card {
+    background: rgba(6, 20, 16, 0.9);
+    border: 1px solid var(--border-green);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+.matrix-feed-card:hover {
+    border-color: var(--neon-green);
+    background: rgba(9, 32, 25, 0.95);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.15);
+    transform: translateX(3px);
+}
+
+/* --- Section Dividers --- */
+hr {
+    border-color: rgba(0, 255, 136, 0.18) !important;
+    margin: 22px 0 !important;
+}
+
+/* --- Code & Pre Blocks --- */
+pre, code {
+    font-family: 'JetBrains Mono', monospace !important;
+    background-color: #010504 !important;
+    color: #00FF88 !important;
+    border: 1px solid rgba(0, 255, 136, 0.2) !important;
+}

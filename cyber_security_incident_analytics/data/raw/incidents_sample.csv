@@ -1,0 +1,153 @@
+Incident_ID,Incident_Date,Incident_Type,Severity,Department,Status,Resolution_Hours,Description
+INC-2024-0001,2024-06-12 04:03:12,Phishing,Medium,Marketing,Resolved,10.7,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0002,2024-06-22 19:51:22,Phishing,Medium,IT,Resolved,7.3,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0003,2024-05-09 21:55:07,Phishing,Low, IT ,Resolved,2.8,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0004,2024-07-26 00:14:11,Suspicious Login,Low,Legal,Resolved,2.8,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0005,2024-02-25 12:15:18,Phishing,Medium,Sales,In Progress,,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0006,2024-07-25 01:34:55,Suspicious Login,Medium,Legal,Resolved,18.5,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0007,2024-07-31 22:53:17,Ransomware,Critical,Marketing,In Progress,,[SYNTHETIC] Encrypted file extensions and ransom text note detected on staging server share.
+INC-2024-0008,2024-06-18 08:17:51,Suspicious Login,Critical,Marketing,In Progress,,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0009,2024-03-12 16:30:29,Suspicious Login,Medium,Sales,Resolved,12.4,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0010,2024-06-28 23:35:39,Phishing,High,Marketing,Resolved,12.0,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0011,2024-03-10 23:18:06,Suspicious Login,Low,Sales,In Progress,,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0012,2024-02-28 01:10:07,Data Leak,Medium,Finance,Resolved,11.0,[SYNTHETIC] Unapproved third-party cloud sync client transferred internal project documentation.
+INC-2024-0013,2024-08-12 11:27:25,Phishing,Medium,Engineering,Resolved,9.2,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0014,2024-03-04 20:26:19,Malware,High,Legal,Open,,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0015,2024-04-02 07:59:06,Unauthorized Access,Low,Finance  ,Resolved,0.5,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0016,2024-08-08 03:59:31,Phishing,Low,Legal,Resolved,1.3,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0017,2024-04-07 21:41:44,Unauthorized Access,Medium,IT,Resolved,9.6,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0018,2024-06-23 19:33:01,Suspicious Login,High,Sales,Resolved,32.8,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0019,2024-02-10 16:31:10,Phishing,High,Operations,Open,,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0020,2024-05-09 03:52:27,Data Leak,Medium,Marketing,Resolved,6.9,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0021,2024-05-18 19:18:34,Unauthorized Access,Medium,Engineering,Resolved,5.6,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0022,2024-08-12 11:11:46,Phishing,Low,Finance,Resolved,3.6,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0023,2024-07-27 02:31:11,Unauthorized Access,Medium,HR,Resolved,5.4,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0024,2024-08-30 20:01:03,Phishing,Medium,Legal,Open,,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0025,2024-07-01 11:20:57,Malware,High,Sales,Resolved,13.4,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0026,2024-01-31 09:01:33,Phishing,Medium,Marketing,Resolved,7.9,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0027,2024-01-19 22:58:39,Phishing,Low,IT,In Progress,,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0028,2024-05-11 08:39:55,Phishing,Medium,HR,In Progress,,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0029,2024-03-03 17:13:13,Data Leak,Low, HR,Resolved,1.3,[SYNTHETIC] Outbound email containing unencrypted customer identifiers blocked by DLP.
+INC-2024-0030,2024-04-18 14:58:03,Malware,High,Finance,Resolved,24.3,[SYNTHETIC] Cryptomining payload detected executing during off-peak processing hours.
+INC-2024-0031,2024-07-23 03:58:42,Phishing,Low,Engineering,Resolved,1.1,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0032,2024-03-12 16:50:37,Phishing,Critical,Engineering,In Progress,,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0033,2024-01-13 23:44:37,Unauthorized Access,High,Finance,Open,,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0034,2024-02-12 14:47:49,Malware,Low,Legal,Open,,[SYNTHETIC] Adware bundle detected and removed after unauthorized freeware installation.
+INC-2024-0035,2024-04-07 00:04:42,Unauthorized Access,Medium,Engineering,Resolved,3.1,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0036,2024-07-06 20:14:05,Suspicious Login,Medium,Marketing,Resolved,9.0,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0037,2024-05-28 19:44:26,Phishing,Medium,IT,Resolved,12.2,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0038,2024-01-15 18:29:22,Phishing,Low,Finance,Resolved,3.8,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0039,2024-04-13 04:21:53,Unauthorized Access,Medium,IT,Resolved,7.4,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0040,2024-06-17 21:15:03,Ransomware,Medium,Operations,Resolved,6.6,[SYNTHETIC] Lateral movement attempt detected following compromised network share access.
+INC-2024-0041,2024-03-21 08:41:25,Phishing,Low,Operations,Resolved,2.3,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0042,2024-01-03 16:41:08,Suspicious Login,Medium,Finance,Resolved,14.4,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0043,2024-05-09 09:39:20,Phishing,Medium,Finance,In Progress,,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0044,2024-03-13 05:44:36,Malware,Medium,Operations,Resolved,9.7,[SYNTHETIC] Endpoint security agent quarantined Trojan downloader on workstation.
+INC-2024-0045,2024-06-19 20:11:32,Phishing,High,HR,Resolved,12.6,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0046,2024-07-09 20:08:32,Phishing,Medium,Marketing,In Progress,,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0047,2024-06-24 23:05:30,Data Leak,Medium,Operations,Open,,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0048,2024-01-24 23:05:36,Malware,Medium,IT,Resolved,5.1,[SYNTHETIC] Adware bundle detected and removed after unauthorized freeware installation.
+INC-2024-0049,2024-06-12 09:32:15,Phishing,Medium,Legal,Resolved,11.4,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0050,2024-01-20 05:25:36,Ransomware,High,HR,Resolved,26.9,[SYNTHETIC] Encrypted file extensions and ransom text note detected on staging server share.
+INC-2024-0051,2024-03-19 13:16:35,Unauthorized Access,High,IT,Open,,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0052,2024-06-23 09:05:06,Suspicious Login,Medium,Legal,Open,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0053,2024-08-24 08:37:09,Data Leak,Critical,HR,Open,,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0054,2024-02-15 12:05:40,Suspicious Login,Medium,Marketing,Resolved,13.5,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0055,2024-04-07 01:24:35,Data Leak,Low,Engineering,Resolved,1.6,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0056,2024-02-27 00:51:41,Suspicious Login,Medium,Operations,In Progress,,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0057,2024-03-30 23:21:20,Malware,High,Sales,Open,,[SYNTHETIC] Endpoint security agent quarantined Trojan downloader on workstation.
+INC-2024-0058,2024-08-12 09:30:37,Phishing,Critical,Operations,Resolved,24.8,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0059,2024-03-29 11:25:14,Malware,Critical,Finance,Resolved,22.6,[SYNTHETIC] Adware bundle detected and removed after unauthorized freeware installation.
+INC-2024-0060,2024-03-06 01:36:57,Suspicious Login,Low,Marketing,Resolved,2.9,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0061,2024-08-30 12:01:19,Suspicious Login,High,Finance,In Progress,,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0062,2024-05-09 11:15:38,Suspicious Login,Medium,Operations,Resolved,12.7,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0063,2024-04-17 13:48:15,Suspicious Login,Critical,Operations,Resolved,55.4,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0064,2024-03-18 10:26:46,Phishing,High,Sales,Resolved,19.3,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0065,2024-06-21 07:46:50,Malware,High,HR,Resolved,10.8,[SYNTHETIC] Cryptomining payload detected executing during off-peak processing hours.
+INC-2024-0066,2024-05-11 23:02:40,Ransomware,Low,Marketing,Resolved,3.2,[SYNTHETIC] Encrypted file extensions and ransom text note detected on staging server share.
+INC-2024-0067,2024-07-25 07:15:00,Phishing,Low,Engineering,Resolved,9.2,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0068,2024-04-26 15:05:21,Unauthorized Access,Medium,Legal,Resolved,8.4,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0069,2024-02-07 23:53:10,Suspicious Login,Critical,Finance,In Progress,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0070,2024-02-15 18:51:29,Malware,Medium,Finance,Resolved,6.6,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0071,2024-06-19 19:20:16,Unauthorized Access,Medium,Engineering,Resolved,7.0,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0072,2024-08-16 18:22:42,Malware,Critical,Engineering,Open,,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0073,2024-04-25 09:26:12,Suspicious Login,High,Operations,In Progress,,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0074,2024-06-09 08:42:38,Phishing,Low,Operations,Resolved,4.3,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0075,2024-03-22 19:39:58,Phishing,Low,Legal,Resolved,1.7,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0076,2024-01-17 15:06:17,Malware,Medium,Legal,Resolved,5.8,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0077,2024-04-09 21:15:56,Unauthorized Access,Low,Legal,Resolved,6.3,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0078,2024-03-17 14:11:56,Data Leak,Critical,Legal,Resolved,34.7,[SYNTHETIC] Unapproved third-party cloud sync client transferred internal project documentation.
+INC-2024-0079,2024-05-19 21:57:49,Unauthorized Access,Medium,Operations,Resolved,8.5,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0080,2024-04-09 12:14:17,Suspicious Login,High,HR,In Progress,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0081,2024-06-08 19:26:48,Phishing,Medium,IT,Resolved,13.7,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0082,2024-02-04 16:48:35,Phishing,Medium,Sales,Resolved,5.0,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0083,2024-03-27 13:48:12,Phishing,Critical,Legal,Resolved,24.6,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0084,2024-04-30 00:42:20,Suspicious Login,Low,Sales,Resolved,4.2,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0085,2024-07-18 23:43:46,Phishing,Low,Marketing,Resolved,4.1,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0086,2024-06-08 05:32:53,Phishing,Medium,Finance,Resolved,2.9,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0087,2024-04-29 09:19:46,Suspicious Login,Low,Finance,In Progress,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0088,2024-03-20 03:56:08,Ransomware,Critical,Legal,Resolved,23.3,[SYNTHETIC] Lateral movement attempt detected following compromised network share access.
+INC-2024-0089,2024-02-20 02:46:01,Ransomware,High,Marketing,Resolved,14.4,[SYNTHETIC] Ransomware dropper execution blocked in isolated sandbox test environment.
+INC-2024-0090,2024-08-05 21:51:37,Data Leak,High,IT,Resolved,19.7,[SYNTHETIC] Outbound email containing unencrypted customer identifiers blocked by DLP.
+INC-2024-0091,2024-06-18 13:29:31,Phishing,High,IT,In Progress,,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0092,2024-01-28 15:47:02,Unauthorized Access,High,Engineering,In Progress,,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0093,2024-02-15 18:59:46,Unauthorized Access,Medium,Engineering,Resolved,9.3,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0094,2024-05-31 09:46:19,Malware,Low,Finance,Resolved,3.1,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0095,2024-03-03 16:55:10,Ransomware,High,Sales,Resolved,4.2,[SYNTHETIC] Ransomware dropper execution blocked in isolated sandbox test environment.
+INC-2024-0096,2024-02-16 17:45:04,Phishing,High,Sales,Resolved,15.6,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0097,2024-05-22 00:22:10,Malware,Low,Marketing,In Progress,,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0098,2024-05-22 08:44:59,Suspicious Login,High,Engineering,Resolved,16.4,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0099,2024-01-24 10:42:46,Phishing,High,Operations,Resolved,49.4,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0100,2024-05-01 20:09:04,Malware,Medium,Sales,Resolved,7.1,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0101,2024-03-10 11:09:49,Phishing,Low,Marketing,Resolved,4.2,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0102,2024-02-19 07:52:41,Suspicious Login,Medium,Operations,Open,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0103,2024-03-16 08:16:56,Malware,Medium,HR,Resolved,15.0,[SYNTHETIC] Endpoint security agent quarantined Trojan downloader on workstation.
+INC-2024-0104,2024-05-21 10:38:10,Suspicious Login,Low,Engineering,Resolved,5.7,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0105,2024-05-26 10:21:08,Malware,Medium,HR,Open,,[SYNTHETIC] Cryptomining payload detected executing during off-peak processing hours.
+INC-2024-0106,2024-08-28 17:23:36,Phishing,Low,Engineering,Resolved,8.4,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0107,2024-02-08 05:25:55,Data Leak,Critical,Finance,Open,,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0108,2024-05-22 15:09:08,Ransomware,High,Marketing,In Progress,,[SYNTHETIC] Ransomware dropper execution blocked in isolated sandbox test environment.
+INC-2024-0109,2024-04-25 16:07:08,Phishing,Medium,Legal,Resolved,2.9,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0110,2024-06-05 03:36:46,Unauthorized Access,Low,Marketing,Resolved,1.4,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0111,2024-02-10 08:43:59,Phishing,Low,IT,Resolved,2.1,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0112,2024-03-15 01:11:18,Phishing,High,Engineering,Resolved,5.7,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0113,2024-08-24 09:37:55,Suspicious Login,High,Marketing,Resolved,16.5,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0114,2024-06-14 05:25:28,Unauthorized Access,High,Finance,Resolved,9.0,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0115,2024-06-01 20:43:27,Unauthorized Access,Medium,Engineering,Resolved,18.2,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0116,2024-04-13 09:54:43,Malware,Medium,Finance,Resolved,4.7,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0117,2024-07-07 11:44:07,Ransomware,Low,Marketing,Open,,[SYNTHETIC] Lateral movement attempt detected following compromised network share access.
+INC-2024-0118,2024-05-30 00:45:19,Unauthorized Access,High,Operations,Resolved,13.1,[SYNTHETIC] Non-admin user attempted privilege escalation via unpatched local service.
+INC-2024-0119,2024-04-30 18:53:41,Suspicious Login,Critical,HR,Open,,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0120,2024-06-11 17:54:11,Unauthorized Access,Medium,Legal,Resolved,12.7,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0121,2024-01-27 05:51:19,Malware,High,Operations,Resolved,7.2,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0122,2024-07-27 20:01:42,Phishing,Low,Operations,Resolved,0.7,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0123,2024-08-09 18:44:09,Data Leak,Low,Engineering,Resolved,3.8,[SYNTHETIC] Cloud bucket containing sanitized test exports discovered with public read access.
+INC-2024-0124,2024-05-12 13:10:19,Suspicious Login,Medium,Engineering,In Progress,,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0125,2024-03-09 19:59:47,Phishing,Medium,Engineering,Resolved,9.3,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0126,2024-06-30 05:45:58,Phishing,Low,Legal,Resolved,5.8,[SYNTHETIC] Suspicious email containing fake payroll update link flagged by employee.
+INC-2024-0127,2024-04-28 04:16:36,Suspicious Login,Low,Operations,Resolved,4.9,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0128,2024-04-16 17:34:02,Unauthorized Access,Low,HR,Resolved,4.2,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0129,2024-05-10 04:58:12,Data Leak,Medium,Legal,Resolved,5.1,[SYNTHETIC] Unapproved third-party cloud sync client transferred internal project documentation.
+INC-2024-0130,2024-03-09 00:05:36,Phishing,Medium,Engineering,In Progress,,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0131,2024-05-17 17:38:03,Malware,Medium,Legal,Resolved,9.2,[SYNTHETIC] Cryptomining payload detected executing during off-peak processing hours.
+INC-2024-0132,2024-08-10 06:52:07,Unauthorized Access,Low,Legal,Resolved,4.1,[SYNTHETIC] Access granted to restricted code repository without required manager approval.
+INC-2024-0133,2024-01-12 11:35:04,Suspicious Login,High,Legal,Resolved,10.3,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0134,2024-05-06 01:20:52,Phishing,Critical,Sales,In Progress,,[SYNTHETIC] Spear phishing message with macro-enabled invoice spreadsheet attached.
+INC-2024-0135,2024-01-26 19:08:57,Unauthorized Access,Low,HR,Resolved,10.8,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0136,2024-02-09 02:43:27,Malware,Critical,Sales,Resolved,37.2,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0137,2024-06-15 02:55:27,Data Leak,Critical,Legal,Open,,[SYNTHETIC] Unapproved third-party cloud sync client transferred internal project documentation.
+INC-2024-0138,2024-07-02 17:45:56,Data Leak,Low,Finance,Resolved,1.4,[SYNTHETIC] Unapproved third-party cloud sync client transferred internal project documentation.
+INC-2024-0139,2024-08-23 10:27:47,Unauthorized Access,High,Legal,Open,,[SYNTHETIC] Terminated contractor access badge and VPN token used prior to credential deprovisioning.
+INC-2024-0140,2024-06-29 03:39:33,Malware,High,IT,Resolved,23.9,[SYNTHETIC] Endpoint security agent quarantined Trojan downloader on workstation.
+INC-2024-0141,2024-03-16 13:03:04,Malware,Low,Legal,Resolved,6.5,[SYNTHETIC] Adware bundle detected and removed after unauthorized freeware installation.
+INC-2024-0142,2024-02-13 06:22:26,Phishing,Critical,Marketing,Resolved,36.1,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.
+INC-2024-0143,2024-02-29 16:47:23,Suspicious Login,Medium,IT,Open,,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0144,2024-08-18 10:28:20,Suspicious Login,Low,Engineering,Open,,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0145,2024-06-12 15:26:55,Suspicious Login,Medium,Operations,Resolved,6.9,[SYNTHETIC] Brute force authentication attempts flagged against external VPN gateway.
+INC-2024-0146,2024-08-06 17:35:35,Phishing,Medium,Sales,Resolved,4.8,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0147,2024-01-06 23:57:55,Malware,Low,IT,Open,,[SYNTHETIC] Malicious PowerShell script blocked by host intrusion prevention system.
+INC-2024-0148,2024-08-01 10:25:12,Suspicious Login,Low,Sales,Resolved,3.1,[SYNTHETIC] Concurrent active sessions detected across two geographically distant locations.
+INC-2024-0149,2024-06-07 09:07:30,Suspicious Login,High,HR,Resolved,19.1,[SYNTHETIC] Multiple failed MFA attempts followed by successful login from foreign ASN.
+INC-2024-0150,2024-03-20 16:02:59,Phishing,Medium,HR,Resolved,8.1,[SYNTHETIC] Mass credential harvesting email impersonating cloud storage login page.
+INC-2024-0006,2024-07-25 01:34:55,Suspicious Login,Medium,Legal,Resolved,18.5,[SYNTHETIC] Dormant user account initiated administrative portal login outside work hours.
+INC-2024-0013,2024-08-12 11:27:25,Phishing,Medium,Engineering,Resolved,9.2,[SYNTHETIC] Executive impersonation attempt targeting finance department for wire transfer.

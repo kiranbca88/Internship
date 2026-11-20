@@ -1,0 +1,28 @@
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+
+# Document outputs & report builds
+*.pdf
+*.docx
+*.log
+temp_out.*
+build/
+dist/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.streamlit/secrets.toml
